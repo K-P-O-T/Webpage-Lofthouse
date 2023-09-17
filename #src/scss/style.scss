@@ -1,0 +1,33 @@
+@import "./base/nullstyle.scss";
+@import "./fonts.scss";
+@import "./base/vars.scss";
+@import "./base/mixins.scss";
+@import "./base/base.scss";
+
+
+// blocks
+@import "./blocks/header.scss";
+@import "./blocks/nav.scss";
+@import "./blocks/nav-icon.scss";
+@import "./blocks/info.scss";
+@import "./blocks/benefits.scss";
+@import "./blocks/apartments.scss";
+@import "./blocks/card.scss";
+@import "./blocks/cta.scss";
+@import "./blocks/form.scss";
+@import "./blocks/video.scss";
+@import "./blocks/section-map.scss";
+@import "./blocks/yandex-map.scss";
+@import "./blocks/feedback.scss";
+@import "./blocks/footer.scss";
+
+
+// libs
+@import "./libs/youtubeLightbox.scss";
+
+
+
+body{
+    font-family: $font-main;
+    overflow-x: hidden;
+}
